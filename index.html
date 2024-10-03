@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEC-Students-Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+<header class="navbar-container">
+    <nav class="navbar">
+        <div class="bec-logo">
+            <img src="beclogo.png" alt="beclogo">
+        </div>
+        <div class="college-name"><p>Bhubaneswar Engineering College</p></div>
+
+    </nav>  
+</header>
+
+<div class="container">
+    <div class="form-box">
+    <h1 class="title">Registration</h1>
+   
+    <form action="" class="r-form-disable rform">
+        <div class="input-group">
+
+                    <div class="input-field">
+
+                        <input type="text" placeholder="First Name" name="fname">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="text" placeholder="Middle Name" name="mname">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="text" placeholder="Last Name" name="lname">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="text" placeholder="Registration ID" name="rid">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="email" placeholder="Gmail ID " name="gid">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="text" placeholder="Phone Number" name="pn">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="date" placeholder="DOB" name="dob">
+
+                    </div><!--end input field-->
+
+                    <div class="input-fied">
+
+                        <input type="radio"  name="gender">
+                        <label>Male</label>
+                        <input type="radio"  name="gender">
+                        <label>Female</label>
+                        
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <select class="form-control" id="course" required>
+                            <option value="" disabled selected>Select Course</option>
+                            <option value="course1">MBA</option>
+                            <option value="course2">B TECH</option>
+                            <option value="course3">DIPLOMA</option>
+                        </select>
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <select class="form-control" id="branch" required>
+                            <option value="" disabled selected>Select Branch</option>
+                            <option value="branch1">CSE</option>
+                            <option value="branch2">EEE</option>
+                            <option value="branch3">ECE</option>
+                            <option value="branch1">CIVIL</option>
+                            <option value="branch2">MECH</option>
+                            <option value="branch3">AERO</option>
+                        </select>
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <select class="form-control" id="semester" required>
+                            <option value="" disabled selected>Select Semester</option>
+                            <option value="sem1">Semester 1</option>
+                            <option value="sem2">Semester 2</option>
+                            <option value="sem3">Semester 3</option>
+                            <option value="sem1">Semester 4</option>
+                            <option value="sem2">Semester 5</option>
+                            <option value="sem3">Semester 6</option>
+                            <option value="sem3">Semester 7</option>
+                            <option value="sem3">Semester 8</option>
+                        </select>
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="password" placeholder="Create Password" name="createpass">
+
+                    </div><!--end input field-->
+
+                    <div class="input-field">
+
+                        <input type="password" placeholder="Confirm Password" name="confirmpass">
+
+                    </div><!--end input field-->
+
+                    
+         </div><!--end input group -->
+         <div class="input-btn">
+
+            <input type="submit" value="Submit" name="submit">
+
+        </div><!--end input field-->
+
+        
+        <div class="underline"></div>
+    </form>
+
+
+
+        <form class="login-form login-disable lform">
+            <select id="userType" name="userType" required>
+                <option value="" disabled selected>Select User Type</option>
+                <option value="student">Student Login</option>
+                <option value="teacher">Teacher Login</option>
+            </select>
+            <input type="text" id="regNo" name="regNo" placeholder="Registration No:" required>
+            <input type="password" id="password" name="password" placeholder="Password:" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="btn-field">
+            <button type="button" class="rbtn active" >Registration</button>
+            <button type="button" class="lbtn">Login</button>
+
+        </div><!--end btn field-->
+   
+    
+    </div><!--end form box-->
+    
+    </div><!--end container-->
+
+
+    <div class="container2">
+        <h2 class="main-heading">Bhubaneswar Engineering College</h2> <!-- Main Heading -->
+    
+        <div class="about">
+            <h3 class="section-heading">About</h3> <!-- Section Heading -->
+            <div class="para">
+                <p>BHUBANESWAR ENGINEERING COLLEGE (BEC) is a Co-Educational Institution specializing in Engineering and Technology under Koustuv Group of Institutions. The objective is to serve as a source of the highest learning, taking the light of knowledge to the depths of darkness, enriching the deprived by serving them with learning, which is the greatest of the world's resources.</p>
+            </div>
+            <div class="bec-image">
+                <img src="bec.jpg" alt="BEC Image">
+            </div>
+        </div>
+    
+        <div class="useful-links">
+            <h3 class="section-heading">Useful Links</h3> <!-- Section Heading -->
+            <ul>
+                <li><a href="https://www.becbbsr.ac.in/">BEC Official Site</a></li>
+                <li><a href="https://www.bput.ac.in/">BPUT</a></li>
+                <li><a href="https://www.aicte-india.org/">AICTE</a></li>
+                <li><a href="https://sctevt.odisha.gov.in/">SCTEVT</a></li>
+            </ul>
+        </div>
+    
+        <div class="location">
+            <h3 class="section-heading">Location</h3> <!-- Section Heading -->
+            <p>Bhubaneswar Engineering College, Grama Diha, Gangapada, Bhubaneswar - 752054, Odisha, INDIA</p>
+        </div>
+    
+        <div class="social-links">
+            <h3 class="section-heading">Social Links</h3> <!-- Section Heading -->
+            <ul>
+                <li><a href="https://www.youtube.com"><i class="fa-brands fa-square-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 Bhubaneswar Engineering College. All Rights Reserved.</p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
